@@ -29,7 +29,7 @@ fi
 
 DIR=$(pwd) 
 DATAFILE="$DIR/$1" 
-if [ ! -d "$DIR/environments" ]; then 
+if [ ! -d "$DIR/configurations" ]; then 
     echo "setenv: Must be run from the root directory of the terraform project." 
     return 1 
 fi 
