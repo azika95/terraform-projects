@@ -32,3 +32,7 @@ variable "engine_version" {}
 variable "backup_retention_period" {}
 
 variable "port" {}
+
+variable "master_username" {}
+
+variable "master_password" {}
