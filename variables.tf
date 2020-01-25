@@ -21,6 +21,6 @@ variable "s3_folder_name" {}
 
 variable "sec_group_name" {}
 
-variable "database_name" {
-  
-}
+variable "database_name" {}
+
+variable "region" {}
