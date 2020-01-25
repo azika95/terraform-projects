@@ -16,3 +16,10 @@ database_name = "clusteredrds"
 sec_group_name = "allow_tls"
 
 cluster_identifier = "devdb"
+
+engine                  = "aurora" 
+engine_version          = "5.6.10a" 
+backup_retention_period = 5
+
+port = "443"
+port = "3306"

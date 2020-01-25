@@ -22,3 +22,11 @@ variable "sec_group_name" {}
 variable "database_name" {}
 
 variable "region" {}
+
+
+variable "engine" {}
+variable "engine_version" {}
+
+variable "backup_retention_period" {}
+
+variable "ports" {}
