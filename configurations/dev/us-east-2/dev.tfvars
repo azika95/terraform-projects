@@ -4,6 +4,7 @@ s3_folder_project = "clusteredRDS"          #Will be used to set backend.tf
 s3_bucket_region = "us-east-2"             #Will be used to set backend.tf
 s3_folder_type = "state"                   #Will be used to set backend.tf
 s3_tfstate_file = "infrastructure.tfstate" #Will be used to set backend.tf
+s3_folder_name = "tools" 
 
 
 private_subnet_id_1 = "subnet-ccf0d1a4"
