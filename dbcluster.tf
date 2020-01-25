@@ -5,7 +5,7 @@ provider "aws" {
 } 
 
 resource "aws_rds_cluster" "default" { 
-    cluster_identifier      = "aurora-cluster-task5" 
+    cluster_identifier      = "${var.cluster_identifier}" 
     engine                  = "aurora" 
     engine_version          = "5.6.10a" 
     availability_zones      = ["${var.private_subnet_id_1}","${var.private_subnet_id_2}", "${var.private_subnet_id_3}"] 
