@@ -19,7 +19,7 @@ variable "cluster_identifier" {}
 
 variable "s3_folder_name" {}
 
-variable "allow_tls" {}
+variable "sec_group_name" {}
 
 variable "database_name" {
   
