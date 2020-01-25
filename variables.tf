@@ -21,3 +21,6 @@ variable "s3_folder_name" {}
 
 variable "allow_tls" {}
 
+variable "database_name" {
+  
+}
