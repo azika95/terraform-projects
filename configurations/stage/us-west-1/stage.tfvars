@@ -4,5 +4,8 @@ s3_folder_project = "clusteredRDS"          #Will be used to set backend.tf
 s3_folder_region = "us-west-1"             #Will be used to set backend.tf
 s3_folder_type = "state"                   #Will be used to set backend.tf
 s3_tfstate_file = "infrastructure.tfstate" #Will be used to set backend.tf
-max_size        = "48"
-min_size        = "3"
+
+
+
+private_subnet_id_1 = "subnet-96123ccd"
+private_subnet_id_2 = "subnet-91f0e2f6"
