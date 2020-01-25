@@ -1,9 +1,3 @@
-provider "aws" { 
-
-  region = "us-east-2" 
-
-} 
-
 resource "aws_rds_cluster" "default" { 
     cluster_identifier      = "${var.cluster_identifier}" 
     engine                  = "aurora" 
