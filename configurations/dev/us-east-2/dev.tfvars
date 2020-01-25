@@ -14,3 +14,5 @@ private_subnet_id_3 = "subnet-316cf34b"
 database_name = "clusteredRDS"
 
 sec_group_name = "allow_tls"
+
+cluster_identifier = "dev_db"
