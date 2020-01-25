@@ -31,4 +31,4 @@ variable "engine_version" {}
 
 variable "backup_retention_period" {}
 
-variable "ports" {}
+variable "port" {}

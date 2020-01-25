@@ -17,6 +17,9 @@ sec_group_name = "allow_tls"
 
 cluster_identifier = "devdb"
 
+master_username         = "admin" 
+master_password         = "password123"
+
 engine                  = "aurora" 
 engine_version          = "5.6.10a" 
 backup_retention_period = 5
