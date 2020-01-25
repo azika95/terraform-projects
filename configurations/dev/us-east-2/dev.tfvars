@@ -11,8 +11,8 @@ private_subnet_id_1 = "subnet-ccf0d1a4"
 private_subnet_id_2 = "subnet-64b47228"
 private_subnet_id_3 = "subnet-316cf34b"
 
-database_name = "clusteredRDS"
+database_name = "clusteredrds"
 
 sec_group_name = "allow_tls"
 
-cluster_identifier = "dev_db"
+cluster_identifier = "devdb"
