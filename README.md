@@ -1,2 +1,3 @@
 # terraform-projects
-# will create clustered RDS
+# Will create clustered RDS
+# In different inv and each in different regions.
