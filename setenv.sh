@@ -41,7 +41,7 @@ S3TFSTATEFILE=$(sed -nr 's/^\s*s3_tfstate_file\s*=\s*"([^"]*)".*$/\1/p' "$DATAFI
 BASE_DOMAIN=$(sed -nr 's/^\s*base_domain\s*=\s*"([^"]*)".*$/\1/p' "$DATAFILE")
 if [ -z "$ENVIRONMENT" ]
 then
-   echo "setenv: 'environment' variable not set in configuration file."
+   echo "setenv: 'configurations' variable not set in configuration file."
    return 1
 fi
 if [ -z "$S3BUCKET" ]
