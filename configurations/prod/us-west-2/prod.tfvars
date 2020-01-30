@@ -1,5 +1,5 @@
 environment = "prod"
-s3_bucket = "task5prod"   #Will be used to set backend.tf
+s3_bucket = "terraformprod5"   #Will be used to set backend.tf
 s3_folder_project = "clusteredRDS"          #Will be used to set backend.tf
 s3_bucket_region = "us-west-2"  
 s3_folder_region = "us-west-2"             #Will be used to set backend.tf

@@ -1,5 +1,5 @@
 environment = "stage"
-s3_bucket = "task5stage"   #Will be used to set backend.tf
+s3_bucket = "terraformstage5"   #Will be used to set backend.tf
 s3_folder_project = "clusteredRDS"          #Will be used to set backend.tf
 s3_bucket_region = "us-west-1"             #Will be used to set backend.tf
 s3_folder_type = "state"                   #Will be used to set backend.tf

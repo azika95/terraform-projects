@@ -1,5 +1,5 @@
 environment = "qa"
-s3_bucket = "task5qa"   #Will be used to set backend.tf
+s3_bucket = "terraformqa5"   #Will be used to set backend.tf
 s3_folder_project = "clusteredRDS"          #Will be used to set backend.tf
 s3_bucket_region = "us-east-1"             #Will be used to set backend.tf
 s3_folder_type = "state"                   #Will be used to set backend.tf
